@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.16.48" id="DataBindings"
+             SeparateXMLFiles="false" Package="requestwebapp" ClientType="Generic">
+  <pageMap>
+    <page path="/ht_request_TaskDetails.jspx" usageId="requestwebapp_ht_request_TaskDetailsPageDef"/>
+    <page path="/ht_request_TaskNotification.jspx" usageId="requestwebapp_ht_request_TaskNotificationPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="requestwebapp_ht_request_TaskDetailsPageDef" path="requestwebapp.pageDefs.ht_request_TaskDetailsPageDef"/>
+    <page id="requestwebapp_ht_request_TaskNotificationPageDef"
+          path="requestwebapp.pageDefs.ht_request_TaskNotificationPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="RequestWebApp_ht_request" path="requestwebapp.RequestWebApp_ht_request"/>
+  </dataControlUsages>
+</Application>

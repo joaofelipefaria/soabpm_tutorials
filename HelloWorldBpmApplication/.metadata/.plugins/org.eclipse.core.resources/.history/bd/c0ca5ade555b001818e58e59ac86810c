@@ -1,0 +1,10 @@
+package com.joaofelipefaria.github.java.helloworld;
+
+public class EntryPointClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
